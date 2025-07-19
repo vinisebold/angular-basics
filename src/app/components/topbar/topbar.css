@@ -1,0 +1,12 @@
+.topbar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b9193c;
+  height: 2rem;
+  color: #ffffff;
+  font-size: 13px;
+  padding-bottom: 0.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
