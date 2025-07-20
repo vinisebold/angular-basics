@@ -1,0 +1,18 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+background-color: rgb(255, 227, 227);
+border-radius: 2em;
+box-shadow: 2px 2px 30px rgb(231, 220, 220);
+border: 2px solid rgb(241, 199, 199);
+
+margin: 1rem 6rem;
+
+}
+
+.title{
+  font-size: 64px;
+}

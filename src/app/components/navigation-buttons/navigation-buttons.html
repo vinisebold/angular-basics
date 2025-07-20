@@ -1,6 +1,11 @@
 <div class="botoes-content">
   @for (button of navButtons; track button.route) {
-  <a class="btn" [routerLink]="button.route">
+  <a
+    class="btn"
+    [routerLink]="button.route"
+    routerLinkActive="btn-active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
     @if (button.iconName === 'recipe') {
     <svg viewBox="0 0 512 512" fill="#bb1b3e" height="14px">
       <path

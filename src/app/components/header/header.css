@@ -27,3 +27,30 @@
   justify-content: center;
   cursor: pointer;
 }
+
+.menu {
+  stroke-width: 2;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.menu:active {
+  transform: scale(0.95);
+}
+
+.menu-active{
+  outline: 1px solid #b9193c;
+}
+
+.profile{
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.profile:active{
+  transform: scale(0.95);
+}
+
+.profile-active{
+  outline: 1px solid #b9193c;
+}

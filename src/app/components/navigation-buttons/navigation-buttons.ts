@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 type NavButton = {
   label : string;
@@ -9,7 +9,7 @@ type NavButton = {
 
 @Component({
   selector: 'app-navigation-buttons',
-  imports: [RouterLink],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './navigation-buttons.html',
   styleUrl: './navigation-buttons.css'
 })
@@ -17,8 +17,8 @@ type NavButton = {
 export class NavigationButtons {
 
   readonly navButtons: NavButton[] = [
-    {label: 'Receitas', route: '/receitas', iconName: 'recipe'},
-    {label: 'Cursos', route: '/cursos', iconName: 'monitor'},
-    {label: 'E-Books', route: '/e-books', iconName: 'book'}
+    {label: 'Receitas', route: '/recipes', iconName: 'recipe'},
+    {label: 'Cursos', route: '/courses', iconName: 'monitor'},
+    {label: 'E-Books', route: '/ebooks', iconName: 'book'}
   ]
 }

@@ -19,3 +19,11 @@
   background-color: #ffffff;
   color: #b9193c;
 }
+
+.btn-active{
+  outline: 1px solid #b9193c;
+}
+
+.btn:active{
+  transform: scale(0.95);
+}
