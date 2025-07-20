@@ -5,65 +5,25 @@
   align-items: center;
   margin: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #D2D2D2;
+  border-bottom: 1px solid #d2d2d2;
 }
 
-.header-content{
+.header-content {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.search-container {
-  display: flex;
-  padding: 10px;
-  border: 1px solid #b9193c;
-  border-radius: 2em;
-  margin: 5px;
-  gap: 5px;
-}
-
-.logo{
+.logo {
   margin: 0px 5px;
   cursor: pointer;
 }
 
-input {
-  border-style: hidden;
-  font-size: 18px;
-  outline-style: none;
-  width: 280px;
-}
-
-input::placeholder {
-  color: #b9193c;
-}
-
-.icones{
+.icones {
   display: flex;
   margin: 10px;
   gap: 15px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-
-.btn{
-  display: inline-flex;
-  background-color: #FFF7EF;
-  border-style: none;
-  padding: 10px 26px;
-  font-size: 16px;
-  margin: 5px;
-  transition: all 0.5s;
-  border-radius: 6px;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-
-.btn:hover{
-  background-color: #FFFFFF;
-  color: #b9193c;
 }

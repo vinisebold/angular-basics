@@ -1,7 +1,5 @@
 import { NgStyle } from '@angular/common';
-import {
-  Component,
-} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -10,11 +8,9 @@ import {
   styleUrl: './home.css',
 })
 export class Home {
+  count: number = 0;
 
-  count = 0;
-
-  click(){
-    this.count++
+  click() {
+    this.count++;
   }
-
 }

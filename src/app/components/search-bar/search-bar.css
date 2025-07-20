@@ -1,0 +1,19 @@
+.search-container {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #b9193c;
+  border-radius: 2em;
+  margin: 5px;
+  gap: 5px;
+}
+
+input {
+  border-style: hidden;
+  font-size: 18px;
+  outline-style: none;
+  width: 280px;
+}
+
+input::placeholder {
+  color: #b9193c;
+}
